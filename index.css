@@ -1,0 +1,150 @@
+:root {
+    --body-color: #EDE9FE;
+    --theme-color: #F4F4F4;
+    --blocks-color: white;
+    --text-color: #5A537B;
+}
+
+
+/* Dark mode */
+.darkmode {
+    --body-color: #111827;
+    --theme-color: #1F2937;
+    --blocks-color: #273549;
+    --text-color: #CCC1FF;
+}
+
+#theme-switch {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: var(--blocks-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#theme-switch:hover {
+    background-color: #6a37f3;
+}
+
+#theme-switch svg {
+    fill: var(--body-color)
+}
+
+#theme-switch svg:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
+
+/* General settings */
+body {
+    margin: 40px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    background-color: var(--body-color);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+#head {
+    display: flex;
+    flex-direction: column;
+    background-color: #6a37f3;
+    color: white;
+    text-align: center;
+    width: 550px;
+    height: 285px;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    margin: 33px 51px 30px 51px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+
+#user-input {
+    width: 101px;
+    height: 83px;
+    border-radius: 5px;
+    border: solid #B295FF 2px ;
+    color: white;
+    background-color: #6a37f3;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    text-align: center;
+    padding-left: 16px ;
+}
+
+#btn {
+    width: 117px;
+    margin-top: 27px;
+    height: 42px;
+    color: #3D3D3D;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#btn:hover {
+    background-color: #34D399;
+}
+
+/* Main Section */
+
+#calculations-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 444px;
+    background-color: var(--theme-color) ;
+    margin: 0px;
+}
+
+.calculations {
+    width: 500px;
+    height: 108.57px;
+    top: 321px;
+    left: 25px;
+    gap: 18.72px;
+    border-radius: 4.68px;
+    background-color: var(--blocks-color);
+    text-align: center;
+    color: var(--text-color);
+}
+
+#firstcalc {
+    margin: 36px auto 23.43px auto;
+}
+
+#secondcalc {
+    margin: 0px auto 23.43px auto;
+}
