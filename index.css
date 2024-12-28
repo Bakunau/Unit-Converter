@@ -147,10 +147,6 @@ h1 {
     overflow-wrap: break-word
 }
 
-/* Ensure no element breaks the layout */
-#user-input, #btn, #theme-switch {
-    max-width: 100%; /* Prevent elements from exceeding parent width */
-
 #firstcalc {
     margin: 36px auto 23.43px auto;
 }
