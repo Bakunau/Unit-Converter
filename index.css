@@ -1,8 +1,9 @@
 :root {
-    --body-color: #EDE9FE;
+    --body-color: #FAF9F6;
     --theme-color: #F4F4F4;
     --blocks-color: white;
     --text-color: #5A537B;
+    --modekey-color: #1C0098;
 }
 
 
@@ -12,6 +13,8 @@
     --theme-color: #1F2937;
     --blocks-color: #273549;
     --text-color: #CCC1FF;
+    --modekey-color: #1C0098;
+    --modekey-color: #99ccff;
 }
 
 #theme-switch {
@@ -20,7 +23,7 @@
     padding: 0px;
     border-radius: 50%;
     border: 0px;
-    background-color: var(--blocks-color);
+    background-color: var(--modekey-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +35,7 @@
 }
 
 #theme-switch svg {
-    fill: var(--body-color)
+    fill: yellow;
 }
 
 #theme-switch svg:last-child {
